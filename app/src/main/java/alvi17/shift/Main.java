@@ -29,6 +29,7 @@ import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 public class Main extends Activity {
 	
@@ -139,9 +140,13 @@ public class Main extends Activity {
     @Override
     public void onDestroy() {
     	try {
-    		super.onStop();
-        	CCDirector.sharedDirector().end();
+			CCDirector.sharedDirector().end();
+    		super.onDestroy();
     	} catch (Exception ex){}
     }
-    
+
+	@Override
+	public void onBackPressed() {
+		//Toast.makeText(getApplicationContext(),"Tap on the Screen to Go Back",Toast.LENGTH_SHORT).show();
+	}
 }
