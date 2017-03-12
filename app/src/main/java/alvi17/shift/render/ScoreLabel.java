@@ -38,7 +38,7 @@ public class ScoreLabel extends CCNode implements Game.ScoreChangedListener{
 				
 		TextEntry txTotal = new TextEntry(TextEntry.TextBoxType.Normal, " ");
 		mTotalLabel = txTotal.getLabel();
-		txTotal.setPosition(0f, 40f);
+		txTotal.setPosition(0f, 50f);
 		
 		TextEntry txLastMove = new TextEntry(TextEntry.TextBoxType.Normal, " ");
 		mLMLabel = txLastMove.getLabel();
@@ -46,7 +46,7 @@ public class ScoreLabel extends CCNode implements Game.ScoreChangedListener{
 		this.addChild(txTotal);
 		this.addChild(txLastMove);
 		
-		setPosition(s.width / 2, s.height / 15);
+		setPosition(s.width / 2, s.height / 13);
 		setScale(Main.SCALE * Block.SCALE);
 		Game.Current().setScoreChangedListener(this);
 	}

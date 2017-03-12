@@ -63,10 +63,10 @@ public class MainMenu extends CCLayer implements KeyHandler {
 		CCMenuItem highscore = getTextItem(R.string.highscore, "showHighscore");
 		
         CCMenu result = CCMenu.menu(easy, normal, hard, highscore, help, quit);
-		result.alignItemsVertically(0f);
+		result.alignItemsVertically(2f);
 		CGSize winSize = CCDirector.sharedDirector().winSize();
 		
-		result.setPosition(winSize.width / 2f, winSize.height / 4.5f);
+		result.setPosition(winSize.width /2f, winSize.height / 4.3f);
 		return result;
 	}
 	
