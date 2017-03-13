@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Shift</string>
+    <string name="app_name">Block Shift</string>
     <string name="score">Total Score: %d</string>
     <string name="lastmove">Last Move: %d</string>
     <string name="hscore">Score: %d</string>

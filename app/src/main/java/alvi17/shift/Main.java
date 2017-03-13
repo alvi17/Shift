@@ -148,5 +148,6 @@ public class Main extends Activity {
 	@Override
 	public void onBackPressed() {
 		//Toast.makeText(getApplicationContext(),"Tap on the Screen to Go Back",Toast.LENGTH_SHORT).show();
+
 	}
 }

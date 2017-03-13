@@ -68,11 +68,11 @@ public class Board extends CCLayer implements Game.BlockChangeListener, KeyHandl
 			fCurrentBoard = new Board();
 			fCurrent = CCScene.node();
 			fCurrent.addChild(Background.node());
-			fCurrent.addChild(getCenterScaledImg("gameboardbottom.png"));
+			//fCurrent.addChild(getCenterScaledImg("gameboardbottom.png"));
 			
 			fCurrent.addChild(fCurrentBoard);
 			if (!DEBUG)
-				fCurrent.addChild(getCenterScaledImg("gameboardtop.png"));
+				//fCurrent.addChild(getCenterScaledImg("gameboardtop.png"));
 			fCurrent.addChild(new ScoreLabel());
 		}
 		Game.Current().setBlockChangedListener(fCurrentBoard);

@@ -28,10 +28,10 @@ import android.graphics.Point;
 public class Game {
 
 	private final int MIN_DESTROY_COUNT = 3;
-	public static final int BOARD_SIZE = 6;
+	public static final int BOARD_SIZE = 9;
 	public static final int BOARD_CACHE_SIZE = 2;
 	public static final int BOARD_SIZE_WITH_CACHE = BOARD_SIZE + 2 * BOARD_CACHE_SIZE;
-	private static final int[] CACHE_INDEXES = new int[] { 9, 0, 1, 8 };
+	private static final int[] CACHE_INDEXES = new int[] { 12, 0, 1, 8 };
 	
 	
 	public static final byte BLOCK_COLOR_COUNT_EASY = 4;

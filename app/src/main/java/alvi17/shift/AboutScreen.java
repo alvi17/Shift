@@ -37,7 +37,7 @@ public class AboutScreen extends CCLayer  {
 		result.addChild(Background.node());
 		
 		CGSize s = CCDirector.sharedDirector().winSize();
-		CCSprite bg = CCSprite.sprite("about.png");
+		CCSprite bg = CCSprite.sprite("help.png");
 		bg.setScale(Block.SCALE*Main.SCALE);
 		bg.setPosition(s.width / 2, s.height / 2);
 		result.addChild(bg);

@@ -59,7 +59,7 @@ public class MainMenu extends CCLayer implements KeyHandler {
 		CCMenuItem hard = getTextItem(R.string.hard, "startHard");
 		CCMenuItem quit = getTextItem(R.string.quit, "onQuit");
 		CCMenuItem help = getTextItem(R.string.show_help, "showHelp");
-		CCMenuItem about = getTextItem(R.string.about, "showAbout");
+		//CCMenuItem about = getTextItem(R.string.about, "showAbout");
 		CCMenuItem highscore = getTextItem(R.string.highscore, "showHighscore");
 		
         CCMenu result = CCMenu.menu(easy, normal, hard, highscore, help, quit);
